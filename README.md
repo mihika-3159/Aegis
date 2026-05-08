@@ -59,4 +59,4 @@ To see Aegis in action, use the **Mission Simulation Control** on the dashboard:
 
 ---
 
-*Built with ❤️ for WeatherWise Hack 2026 by the Aegis Resilience Team.*
+*Built with ❤️ for WeatherWise Hack 2026 by Mihika Singh.*
