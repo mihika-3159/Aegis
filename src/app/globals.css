@@ -52,6 +52,36 @@
   }
 }
 
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  
+  .no-print {
+    display: none !important;
+  }
+
+  .glass, .glass-cyan, .glass-danger {
+    background: white !important;
+    border: 1px solid #ddd !important;
+    backdrop-filter: none !important;
+    color: black !important;
+    box-shadow: none !important;
+  }
+
+  .text-cyan-neon, .text-danger-neon, .text-amber-neon, .text-toxic-neon {
+    color: black !important;
+    text-shadow: none !important;
+  }
+
+  .bg-danger-neon {
+    background-color: #ef4444 !important;
+    color: white !important;
+    -webkit-print-color-adjust: exact;
+  }
+}
+
 @keyframes scan {
   0% { transform: translateY(-100%); }
   100% { transform: translateY(100%); }

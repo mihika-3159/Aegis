@@ -24,7 +24,7 @@ export interface AegisState {
   isEmergencyMode: boolean;
   simulationScenario: string | null;
   preparednessScore: number;
-  
+
   setWeather: (weather: WeatherData) => void;
   setRisks: (risks: RiskAssessment[]) => void;
   toggleSimulationMode: (scenario?: string) => void;
