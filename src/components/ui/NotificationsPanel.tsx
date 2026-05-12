@@ -54,7 +54,7 @@ export const NotificationsPanel = () => {
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: -10, scale: 0.96 }}
             transition={{ duration: 0.15 }}
-            className="absolute right-0 top-12 w-96 z-[200] glass rounded-2xl border border-white/10 shadow-2xl overflow-hidden"
+            className="absolute right-0 top-12 w-96 z-[200] bg-slate-950/95 backdrop-blur-2xl rounded-2xl border border-white/10 shadow-[0_0_40px_rgba(0,0,0,0.5)] overflow-hidden"
           >
             <div className="flex items-center justify-between px-5 py-4 border-b border-white/10">
               <div>
